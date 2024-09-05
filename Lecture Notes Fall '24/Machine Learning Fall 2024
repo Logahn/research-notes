@@ -1,0 +1,34 @@
+Machine Learning Fall 2024
+
+Machine Learning is a computer learn from experience E
+with respect to a specific task T
+and a specific problem P
+if its performance on T measured by P improves with E
+
+Office hours - Tuesdays and Thursday 10:00 - 11:00
+TA's place - 6th floor 25PP
+
+Supervised learning makes a rule from experience and uses this rule to make predictions
+Labeled data are the results of an experience. 
+
+Unsupervised learning is without experience and label and the machine decides to classify based on the similarities between data.
+
+Surface and Deep Learning
+
+Training distribution should commensurate testing distribution
+You cannot use the experience of world champions to train a model for elementary school kids
+
+
+All machine algorithms can be boiled down to finding the optimal weights for the model
+
+
+Step size
+
+Concept learning
+
+Concept learning is like trying to describe the world to the computer
+Consider concept learning like simulating the learning process of a baby in a machine.
+
+
+
+FInding the maximally general bound for concept learning
