@@ -1,7 +1,7 @@
 # Multimodal Machine Learning 11-777
 Louise-Phillipe Morency
 
-Tokenization is an important part of multimodal machine learning
+Tokenization is an important part of multimodal machine learning. Tokens are the building blocks of Natural Language. Tokenization is a way of separating a piece of text into smaller units called tokens.
 
 Multimodal means multimodalities and we often define them based on how humans can perceive their environments.
 There have been improvements in technology and thus an increase in the modalities available to machines.
@@ -66,3 +66,11 @@ Instead, phrase your questions like this: "Is the alignment between modalities r
 - Room-to-room
 - Room-across-room (RxR) *
 - Winoground *
+
+**The simplest representations of modalities:**
+- Image - pixels
+- Language - tokens
+- Speech and Signals - waveforms
+- Sensors - 
+
+The very core idea of GPTs is that the context of a word is the best approximation of its meaning.

@@ -32,3 +32,31 @@ Consider concept learning like simulating the learning process of a baby in a ma
 
 
 FInding the maximally general bound for concept learning
+
+## Concept Learning:
+
+## Find S Algorithm:
+
+## Decision Tree Learning:
+
+Decision trees is approximating discrete-values functions. You have to convert categorical values to discrete values for decision trees.
+What is ID3?
+
+Definition of Decision trees:
+Decision trees classify instances by sorting them from root to leaf nodes.
+Decision tree represents the disjunction of the conjuction of the constraints on attribute values of instances.
+
+Given the training data, the model should be able to build a decision tree.
+it uses a top-down greedy algorithm (trying to find the fastest not the best)
+
+ID3 Algorithm is a topdown algorithm and we need to determine which attribute should be tested firsr and there is never backtracks and it is a greedy algorithm.
+
+Determinbation of best attribute:
+Information gain - How well an attribute separates the training examples.
+Entropy - the purity of an arbitrary collection of exampkes. *-p1 log2*p1 - p0 log2*p0* Entropy tells us when the percentahe of each attribute to each other. If they are similar, entropy is large.
+
+Best attribute partitions data set to groups with small entropy. Check information gain calculations.
+
+Development of decision trees
+- Find the information gain of eah attribute.
+
