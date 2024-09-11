@@ -50,13 +50,35 @@ Given the training data, the model should be able to build a decision tree.
 it uses a top-down greedy algorithm (trying to find the fastest not the best)
 
 ID3 Algorithm is a topdown algorithm and we need to determine which attribute should be tested firsr and there is never backtracks and it is a greedy algorithm.
+ID3 means Iterative Dechotomiser
 
-Determinbation of best attribute:
+- Top-down approach: ID3 starts with the root node and recursively splits the data into smaller subsets based on the most informative attribute.
+- Greedy algorithm: ID3 uses a greedy approach to select the best attribute to split the data at each node. It chooses the attribute that results in the largest information gain.
+- No backtracking: ID3 does not perform backtracking, meaning that once a decision is made at a node, it is not revisited.
+
+The ID3 algorithm works as follows:
+
+Select the root node: Choose the attribute with the highest information gain as the root node.
+Split the data: Split the data into two subsets based on the selected attribute.
+Recursively split: Recursively apply the ID3 algorithm to each subset until a stopping criterion is met (e.g., all instances belong to the same class).
+Create a leaf node: Create a leaf node for each subset and assign the corresponding class label.
+ID3 is a simple and efficient algorithm for building decision trees, but it has some limitations, such as:
+
+Overfitting: ID3 can result in overfitting, especially when dealing with noisy or high-dimensional data.
+Handling missing values: ID3 does not handle missing values well, which can lead to biased results.
+Despite these limitations, ID3 remains a popular algorithm for building decision trees and is often used as a baseline for more advanced algorithms.
+
+Determination of best attribute:
 Information gain - How well an attribute separates the training examples.
-Entropy - the purity of an arbitrary collection of exampkes. *-p1 log2*p1 - p0 log2*p0* Entropy tells us when the percentahe of each attribute to each other. If they are similar, entropy is large.
+Entropy - the purity of an arbitrary collection of exampkes. *-p1 log2*p1 - p0 log2*p0* Entropy tells us when the percentage of each attribute to each other. If they are similar, entropy is large.
 
 Best attribute partitions data set to groups with small entropy. Check information gain calculations.
 
 Development of decision trees
 - Find the information gain of eah attribute.
 
+Entropy = -∑(p × log2(p)) (smaller is better)
+Information gain = Entropy(parent) - ∑( (|child| / |parent|) × Entropy(child) ) (higher is better)
+Gini index => Two randomly selected items must be if same class and the probability for this is 1, if the population is pure.
+Gini index  = 1 - ∑(p^2)
+Gini impurity => 1 - (probability of positive)^2 - (probability of negative)^2
