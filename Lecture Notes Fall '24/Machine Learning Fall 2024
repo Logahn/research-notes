@@ -82,3 +82,5 @@ Information gain = Entropy(parent) - ∑( (|child| / |parent|) × Entropy(child)
 Gini index => Two randomly selected items must be if same class and the probability for this is 1, if the population is pure.
 Gini index  = 1 - ∑(p^2)
 Gini impurity => 1 - (probability of positive)^2 - (probability of negative)^2
+
+ID3 doesnt give acecess to control the size of the tree. Overfitting is when thr training accuracy is sohigh yet the testing accuracy is very low, because you have over adjusted the model to be accurate  only on the training dataset.
