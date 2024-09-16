@@ -9,7 +9,7 @@
 
 
 
-**Alternative title:** REHEARSAL: Learning Comflict Resolution through Feedback
+**Alternative title:** Rehearsal: Learning Conflict Resolution through Feedback
 
 
 **Missing Experiments from the paper:**
