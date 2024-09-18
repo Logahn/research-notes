@@ -84,3 +84,65 @@ Gini index  = 1 - ∑(p^2)
 Gini impurity => 1 - (probability of positive)^2 - (probability of negative)^2
 
 ID3 doesnt give acecess to control the size of the tree. Overfitting is when thr training accuracy is sohigh yet the testing accuracy is very low, because you have over adjusted the model to be accurate  only on the training dataset.
+
+
+Research Title: Building Cyberspace Infrastructure for SPace Weather Analytics
+Speaker: Dr. Berkay Ardyn
+Description of Talk:
+
+Problems - 
+Solar flare and Radiations, Geomagnetic storms
+Space crew safety
+Navigations error and commubnication error
+Aviation safety
+
+Cause: Dynamic and constant solar effect on earth. Numerous phenomena have intertwined triggers, all having different magnitudes from flares to solar storms.
+
+Approach: Definition of solar active regions
+Data (Acquisition, storage, processing)
+MOdel (Training, ensembling, optimization, validation)
+System (Developing, testing, integration, deployment)
+
+
+Cyber infrastructures are
+Data acquisition
+Data storage
+Data mitigation
+Data mining and machine learning
+
+Traditional methods are satellites, observation and raw data(server)
+Novel methods are Data providers, analytics software and prediction products
+
+Solar data sources are
+- Satelites
+- Raw data
+ - Rasters (images, magnetograms)
+ - Time series
+- Metadata
+ - AR metadata
+ - Flares, CME, SEP
+
+Multifaceted data
+Highdimensional data
+Heterogenous data
+
+
+Cyberstructures are currently used to solve problems
+Approach -> Creation of benchmark datasets
+Comparison models
+Creation of space weather analytics Datasets(SWAN-SF)
+Creating mnultivariate timeseries for each active trajectory
+
+Space weather forecasting - solar weather forecasting
+
+Start from active regions -> Predict flares -> predict CME
+
+FLare production algo: Multivariate or image classification  Used together to complement
+
+CME - Corona Mass Ejection
+SEP - Solar Energetic Particles
+
+
+Tuesday 17th Septmeber '24
+Perceptrons are single unit ANNs
+
