@@ -12,7 +12,7 @@ prompt feature. Then the prompt feature is concatenated
 with the original instruction feature and fed to a multi-layer
 transformer for action prediction.
 
-Start -> Instruction prompt5 retrieval -> Prompt feature + instruction feature -> Multilayer transformer -> Action prediction.
+Start -> Instruction prompt retrieval -> Prompt feature + instruction feature -> Multilayer transformer -> Action prediction.
 
 To collect high-quality
 action prompts into the prompt base, we use the **Contrastive
@@ -45,8 +45,7 @@ nearest-verb-search scheme, that is, finding the nearest verb
 (which is in a pre-built verb vocabulary) just before a spe-
 cific object/location word.
 
-**Limitations:** With regards to the limitation of our work, our con-
-structed action prompt base in ADAPT contains more or
+**Limitations:** With regards to the limitation of our work, our constructed action prompt base in ADAPT contains more or
 less noise due to the ability of CLIP, the scene complexity
 and instruction diversity in the VLN task. The future work
 includes finding action prompts of better quality.

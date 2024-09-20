@@ -9,7 +9,7 @@ Office hours - Tuesdays and Thursday 10:00 - 11:00
 TA's place - 6th floor 25PP
 
 Supervised learning makes a rule from experience and uses this rule to make predictions
-Labeled data are the results of an experience. 
+Labeled data are the results of an experience.
 
 Unsupervised learning is without experience and label and the machine decides to classify based on the similarities between data.
 
@@ -18,9 +18,7 @@ Surface and Deep Learning
 Training distribution should commensurate testing distribution
 You cannot use the experience of world champions to train a model for elementary school kids
 
-
 All machine algorithms can be boiled down to finding the optimal weights for the model
-
 
 Step size
 
@@ -28,8 +26,6 @@ Concept learning
 
 Concept learning is like trying to describe the world to the computer
 Consider concept learning like simulating the learning process of a baby in a machine.
-
-
 
 FInding the maximally general bound for concept learning
 
@@ -75,22 +71,24 @@ Entropy - the purity of an arbitrary collection of exampkes. *-p1 log2*p1 - p0 l
 Best attribute partitions data set to groups with small entropy. Check information gain calculations.
 
 Development of decision trees
+
 - Find the information gain of eah attribute.
 
 Entropy = -∑(p × log2(p)) (smaller is better)
 Information gain = Entropy(parent) - ∑( (|child| / |parent|) × Entropy(child) ) (higher is better)
 Gini index => Two randomly selected items must be if same class and the probability for this is 1, if the population is pure.
-Gini index  = 1 - ∑(p^2)
+Gini index = 1 - ∑(p^2)
 Gini impurity => 1 - (probability of positive)^2 - (probability of negative)^2
 
-ID3 doesnt give acecess to control the size of the tree. Overfitting is when thr training accuracy is sohigh yet the testing accuracy is very low, because you have over adjusted the model to be accurate  only on the training dataset.
+ID3 doesnt give acecess to control the size of the tree. Overfitting is when thr training accuracy is sohigh yet the testing accuracy is very low, because you have over adjusted the model to be accurate only on the training dataset.
 
+If an input is not linearly separable, a perceptron is not useful in that case.
 
 Research Title: Building Cyberspace Infrastructure for SPace Weather Analytics
 Speaker: Dr. Berkay Ardyn
 Description of Talk:
 
-Problems - 
+Problems -
 Solar flare and Radiations, Geomagnetic storms
 Space crew safety
 Navigations error and commubnication error
@@ -103,7 +101,6 @@ Data (Acquisition, storage, processing)
 MOdel (Training, ensembling, optimization, validation)
 System (Developing, testing, integration, deployment)
 
-
 Cyber infrastructures are
 Data acquisition
 Data storage
@@ -114,18 +111,18 @@ Traditional methods are satellites, observation and raw data(server)
 Novel methods are Data providers, analytics software and prediction products
 
 Solar data sources are
+
 - Satelites
 - Raw data
- - Rasters (images, magnetograms)
- - Time series
+- Rasters (images, magnetograms)
+- Time series
 - Metadata
- - AR metadata
- - Flares, CME, SEP
+- AR metadata
+- Flares, CME, SEP
 
 Multifaceted data
 Highdimensional data
 Heterogenous data
-
 
 Cyberstructures are currently used to solve problems
 Approach -> Creation of benchmark datasets
@@ -137,12 +134,10 @@ Space weather forecasting - solar weather forecasting
 
 Start from active regions -> Predict flares -> predict CME
 
-FLare production algo: Multivariate or image classification  Used together to complement
+FLare production algo: Multivariate or image classification Used together to complement
 
 CME - Corona Mass Ejection
 SEP - Solar Energetic Particles
 
-
 Tuesday 17th Septmeber '24
 Perceptrons are single unit ANNs
-
