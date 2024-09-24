@@ -51,3 +51,8 @@ and instruction diversity in the VLN task. The future work
 includes finding action prompts of better quality.
 
 Implementation: [ADAPT](https://github.com/expectorlin/ADAPT)
+
+Baseline
+Limitations
+Reasons for the work
+Build upon the work

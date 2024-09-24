@@ -141,3 +141,11 @@ SEP - Solar Energetic Particles
 
 Tuesday 17th Septmeber '24
 Perceptrons are single unit ANNs
+
+Deep Learning (Unsupervised Features Selection):
+Deep Learning works by taking an image, taking not of the edges in the image and using those edges to make a list of features which the network then trains on.
+
+For example, take the image of a face, it uses edges identification to find edges of eyes, nose and mouth then with the eyes, nose and mouth as features, it can predict the image is of a face.
+
+Convoluional Neural Network:
+Smoothing convolutional Kernel: Sliding window or pooling for averaging values of a set of surrounding pixels to reduce noise.
